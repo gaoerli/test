@@ -141,7 +141,7 @@ a {
 .box-item {
   position: absolute;
   width: auto !important;
-  height: 75%;
+  max-height: 75%;
   top: 18%;
   left: 30px;
   display: inline-block;
