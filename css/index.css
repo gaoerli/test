@@ -1,0 +1,210 @@
+/** 原先样式修改 start**/
+/**清除浮动 **/
+.clearfix {
+  display: block;
+}
+
+.clearfix::after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/** 原先样式修改 end**/
+/** 新增样式 start**/
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/** 在岗监督 start**/
+.zgjd {
+  position: relative;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vw;
+  min-width: 768px;
+  font-family: "Microsoft Yahei", "微软雅黑", Arial, "Helvetica",
+    "Microsoft YaHei New", "STXihei", "华文细黑", "SimHei", "黑体", sans-serif;
+  font-size: 16px;
+  overflow: auto;
+  /** 头部切换 **/
+}
+
+.zgjd .tab-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  width: 100%;
+  padding: 0 15%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.zgjd .tab-bg {
+  background-color: #e8f6fe;
+  -webkit-box-shadow: -2px 1px 3px 0px rgba(190, 190, 190, 0.35);
+  box-shadow: -2px 1px 3px 0px rgba(190, 190, 190, 0.35);
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.tab-item {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #939393;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tab-item .tab-icon {
+  position: relative;
+  display: inline-block;
+  padding: 1em 0 1em 30px;
+}
+
+.tab-item .tab-icon::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 0%;
+  display: inline-block;
+  width: 26px;
+  height: 24px;
+  background: url("../images/tab-icon.png") no-repeat center;
+  background-size: 78px 48px;
+}
+
+.tab-item .icon-1::before {
+  background-position: 0px 0;
+}
+
+.tab-item .icon-2::before {
+  background-position: -26px 0;
+}
+
+.tab-item .icon-3::before {
+  background-position: -52px 0;
+}
+
+/** 选中状态 **/
+.active .tab-icon {
+  color: #3468f3;
+}
+
+.active .tab-icon::before {
+  background-position-y: -24px;
+}
+
+.cg-map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.cg-map .map-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.tab-show {
+  display: block;
+}
+
+/*地图标题*/
+.BMap_bubble_title {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid gray;
+  background-color: #0066b3;
+}
+
+/* 显示部分 */
+.box-item {
+  position: absolute;
+  width: auto !important;
+  height: 75%;
+  top: 18%;
+  left: 30px;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #000 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  overflow: auto;
+  border: none !important;
+}
+
+.box-item .item-img {
+  width: 30px;
+}
+
+.box-item td {
+  border-width: 0 0 2px !important;
+  border-color: #e6f1ff;
+  padding: 5px 0.5em !important;
+}
+
+.box-item .t-hearder {
+  font-weight: bold;
+}
+
+/* 消息内容 */
+.BMap_bubble_content {
+  background-color: white;
+  padding: 0.2em 0.5em;
+}
+
+.txt {
+  font-size: 14px;
+  color: #747474;
+  margin-bottom: 0.5em;
+}
+
+.txt .txt-left {
+  display: inline-block;
+  min-width: 5em;
+  text-align: right;
+  color: #007cc4;
+  padding-right: 1em;
+}
+
+.txt-btn {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: right;
+}
+
+.txt-btn .txt-left {
+  display: inline-block;
+  padding: 0.2em 1em;
+  color: inherit;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #007cc4;
+}
+
+.txt-btn .txt-left:hover,
+.txt-btn .txt-left:focus {
+  color: inherit;
+}
+
+/** 在岗监督 end**/

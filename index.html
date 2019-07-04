@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>在岗监督</title>
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./js/lib/layui/layui.css" media="all" />
+  </head>
+  <body>
+    <div class="zgjd">
+      <div class="tab-box">
+        <div class="layui-row tab-bg">
+          <a class="tab-item layui-col-xs3 layui-col-md3 active" href="#cq"
+            ><span class="tab-icon icon-1">城区环卫 </span></a
+          ><a class="tab-item layui-col-xs3 layui-col-md3" href="#xz"
+            ><span class="tab-icon icon-1">乡镇环卫 </span></a
+          ><a class="tab-item layui-col-xs3 layui-col-md3" href="#cz"
+            ><span class="tab-icon icon-2">车载监控 </span></a
+          ><a class="tab-item layui-col-xs3 layui-col-md3" href="#zt"
+            ><span class="tab-icon icon-3">渣土 </span></a
+          >
+        </div>
+      </div>
+
+      <div class="cg-map tab-show" id="cq">
+        <div class="map-bg" id="cq-map-bg"></div>
+        <table class="layui-table box-item" lay-skin="line">
+          <tbody>
+            <tr>
+              <td class="t-hearder" colspan="3">
+                城区环卫车总数：100台（视频监控：6台）
+              </td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-1.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-2.png" alt="渣土车" width="25px" />
+              </td>
+              <td>橱窗垃圾处理车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-3.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="cg-map" id="xz">
+        <div class="map-bg" id="xz-map-bg"></div>
+        <table class="layui-table box-item" lay-skin="line">
+          <tbody>
+            <tr>
+              <td class="t-hearder" colspan="3">
+                乡镇环卫车总数：100台（视频监控：6台）
+              </td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-1.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-2.png" alt="渣土车" width="25px" />
+              </td>
+              <td>橱窗垃圾处理车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-3.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="cg-map" id="cz">
+        <div class="map-bg" id="cz-map-bg"></div>
+        <table class="layui-table box-item" lay-skin="line">
+          <tbody>
+            <tr>
+              <td class="t-hearder" colspan="3">
+                车载监控车总数：100台（视频监控：6台）
+              </td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-1.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-2.png" alt="渣土车" width="25px" />
+              </td>
+              <td>橱窗垃圾处理车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-3.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="cg-map" id="zt">
+        <div class="map-bg" id="zt-map-bg"></div>
+        <table class="layui-table box-item" lay-skin="line">
+          <tbody>
+            <tr>
+              <td class="t-hearder" colspan="3">
+                渣土车总数：100台（视频监控：6台）
+              </td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-1.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-2.png" alt="渣土车" width="25px" />
+              </td>
+              <td>橱窗垃圾处理车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-3.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-4.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+            <tr>
+              <td class="item-img">
+                <img src="./images/car01-5.png" alt="渣土车" width="25px" />
+              </td>
+              <td>清洗车：<span>32台</span></td>
+              <td>在线：<span>3台</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./js/lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://api.map.baidu.com/api?v=2.0&amp;ak=FyI0NOQh8s1Pj8lQ82THbXVY"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
