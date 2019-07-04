@@ -30,10 +30,8 @@ a {
 /** 在岗监督 start**/
 .zgjd {
   position: relative;
-  height: 100vh;
-  margin: 0 auto;
-  width: 100vw;
-  min-width: 768px;
+  height: 100%;
+  width: 100%;
   font-family: "Microsoft Yahei", "微软雅黑", Arial, "Helvetica",
     "Microsoft YaHei New", "STXihei", "华文细黑", "SimHei", "黑体", sans-serif;
   font-size: 16px;
